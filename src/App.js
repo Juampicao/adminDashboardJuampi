@@ -30,7 +30,7 @@ import { useStateContext } from "./contexts/ContextProvider";
 import "./App.css";
 
 const App = () => {
-  const { activeMenu } = useStateContext(); // ContextProvider
+  const { activeMenu, themeSettings } = useStateContext(); // ContextProvider
 
   return (
     <div>
@@ -63,6 +63,10 @@ const App = () => {
               <Navbar />
             </div>
             <div>
+              {/* ThemeSettings */}
+              {themeSettings && <ThemeSettings />}
+              {/* ThemeSettings */}
+
               <Routes>
                 {/* Dashboard */}
                 <Route path="/" element={<Ecommerce />} />
