@@ -1,5 +1,5 @@
 npm start.
-1.52 (aparecer Ecommerce)
+3.31. Dark Settings 
 
 => Guardar como predeterminado para proyectos react. 
   - Tailwind 

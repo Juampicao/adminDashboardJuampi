@@ -20,6 +20,7 @@ const Navbar = () => {
     handleClick,
     screenSize,
     setScreenSize,
+    currentColor,
   } = useStateContext();
 
   // Cambia el Navbar Segun el window.with de forma automatica (`resize`, handleResize) es como (`click`, hacEesto)
@@ -66,7 +67,7 @@ const Navbar = () => {
       <NavButton
         title="Menu"
         customFunc={() => setActiveMenu((prevActiveMenu) => !prevActiveMenu)}
-        color="blue"
+        color={currentColor}
         icon={<AiOutlineMenu />}
       />
 
@@ -75,7 +76,7 @@ const Navbar = () => {
         <NavButton
           title="Cart"
           customFunc={() => handleClick("cart")}
-          color="blue"
+          color={currentColor}
           icon={<FiShoppingCart />}
         />
         {/* Cart */}
@@ -85,7 +86,7 @@ const Navbar = () => {
           title="Chat"
           dotColor="#03C9D7"
           customFunc={() => handleClick("chat")}
-          color="blue"
+          color={currentColor}
           icon={<BsChatLeft />}
         />
         {/* Chat */}
@@ -95,7 +96,7 @@ const Navbar = () => {
           title="Notification"
           dotColor="#03C9D7"
           customFunc={() => handleClick("notification")}
-          color="blue"
+          color={currentColor}
           icon={<RiNotification3Line />}
         />
         {/* Notification */}
