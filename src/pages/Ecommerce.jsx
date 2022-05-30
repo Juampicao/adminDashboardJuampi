@@ -77,9 +77,11 @@ const Ecommerce = () => {
       <div classname="flex gap-10 flex-wrap justify-center">
         <div classname="bg-white dark:text-gray-200 dark:bg-seconday-dark-bg m-2 rounded-2xl md-w-780 ">
           <div className="flex justify-between">
-            <p className="font-semibold text-xl">Revenue Updates</p>
+            <p className="font-semibold text-xl dark:text-gray-200 ">
+              Revenue Updates
+            </p>
             <div className="flex items-center gap-4">
-              <p className="flex items-center gap-2 text-gray-600 hover:drop-shadow-xl">
+              <p className="flex items-center gap-2 text-gray-600 hover:drop-shadow-xl ">
                 <span>
                   <GoPrimitiveDot />
                 </span>
@@ -98,7 +100,9 @@ const Ecommerce = () => {
             <div className=" border-r-1 border-color m-4 pr-10">
               <div>
                 <p>
-                  <span className="text-3xl font-semibold">$93,438</span>
+                  <span className="text-3xl font-semibold dark:text-gray-200">
+                    $93,438
+                  </span>
                   <span className="p-1.5 hover:drop-shadow-xl cursor-pointer rounded-full text-white bg-green-400 ml-3 text-xs">
                     23%
                   </span>
@@ -106,7 +110,9 @@ const Ecommerce = () => {
                 <p className="text-gray-500 mt-1">Budget</p>
               </div>
               <div className="mt-8">
-                <p className="text-3xl font-semibold">$48,487</p>
+                <p className="text-3xl font-semibold dark:text-gray-200">
+                  $48,487
+                </p>
 
                 <p className="text-gray-500 mt-1">Expense</p>
               </div>

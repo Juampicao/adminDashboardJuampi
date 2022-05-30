@@ -1,5 +1,5 @@
 npm start.
-3.31. Dark Settings 
+3.31. Charts
 
 => Guardar como predeterminado para proyectos react. 
   - Tailwind 
